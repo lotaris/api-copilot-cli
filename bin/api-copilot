@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+// vim: set syntax=javascript:
+
+var resolve = require('resolve');
+
+var copilot;
+
+try {
+  copilot = resolve.sync('api-copilot', { basedir: process.cwd() });
+} catch (e) {
+  console.warn('Could not find local api-copilot; did you run `npm install`?');
+  process.exit(2);
+}
+
+require(copilot).cli();

@@ -1,0 +1,32 @@
+{
+  "name": "api-copilot-cli",
+  "version": "0.1.0",
+  "bin": {
+    "api-copilot": "./bin/api-copilot"
+  },
+  "dependencies": {
+    "resolve": "^0.6.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-bump": "~0.0.13",
+    "grunt-contrib-jshint": "~0.9.2"
+  },
+  "homepage": "https://github.com/lotaris/api-copilot-cli",
+  "bugs": "https://github.com/lotaris/api-copilot-cli/issues",
+  "author": {
+    "name": "Simon Oulevay",
+    "email": "simon.oulevay@gmail.com",
+    "url": "https://github.com/AlphaHydrae"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotaris/api-copilot-cli"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/lotaris/api-copilot-cli/master/LICENSE.txt"
+    }
+  ]
+}
